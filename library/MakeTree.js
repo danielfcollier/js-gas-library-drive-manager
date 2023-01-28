@@ -5,4 +5,6 @@ function MakeTree(baseDirId, tree) {
   if (tree.folders.sub) {
     tree.folders.sub.forEach((entry) => createDirStructure(rootDir, entry));
   }
+
+  return rootDir.getId();
 }

@@ -78,5 +78,6 @@ const tree = {
   },
 };
 
-DriveManager.MakeTree(baseDirId, tree);
+const folderId = DriveManager.MakeTree(baseDirId, tree);
+console.log({ folderId });
 ```
