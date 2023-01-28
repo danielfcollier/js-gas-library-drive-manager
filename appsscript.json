@@ -1,0 +1,15 @@
+{
+  "timeZone": "Etc/GMT",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "TestFramework",
+        "version": "1",
+        "libraryId": "11sp2QF8_jZxJMjESptnsNJ7PeLEU8RNXRAR8wEQ4etJJ8vnUGPudyS_p",
+        "developmentMode": false
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
