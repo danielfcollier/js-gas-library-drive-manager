@@ -33,5 +33,6 @@ function integrationTest() {
     },
   };
 
-  MakeTree(baseDirId, tree);
+  const folderId = MakeTree(baseDirId, tree);
+  console.log({ folderId });
 }
