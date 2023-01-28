@@ -13,7 +13,7 @@ There are two ways to import the library to your project:
 1vJEBHQvu_imGmAKfiRKrA_MwDmniguLTsA307h0XLTRIptGJogI3XdpW
 ```
 
-2. Add the latest version: for example, `1`
+2. Add the latest version: for example, `2`
 3. Use the identifier `DriveManager`
 
 These actions will update your `appsscript.json`.
@@ -25,7 +25,7 @@ Or, you can update it directly adding to the `dependencies` object:
     "libraries": [
       {
         "userSymbol": "DriveManager",
-        "version": "1",
+        "version": "2",
         "libraryId": "1vJEBHQvu_imGmAKfiRKrA_MwDmniguLTsA307h0XLTRIptGJogI3XdpW"
       }
     ]
